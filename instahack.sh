@@ -66,9 +66,9 @@ echo " "
         exit
     elif [ $ch -eq 3 ];then
         git clone https://github.com/sidhaniedotcom/instahack
-        cd InstaReport
+        cd instahack
         pip install -r requirements.txt
-        python ReportBot.py
+        python instahack.py
 
         exit
     elif [ $ch -eq 4 ];then
@@ -80,7 +80,7 @@ echo " "
         cd $HOME
         rm -rf instahack
         git clone https://github.com/sidhaniedotcom/instahack
-        cd insta-hack
+        cd instahack
         bash instahack.sh
      
         exit
