@@ -36,7 +36,7 @@ cd instahack
 pip3 install -r requirements.txt
 chmod +x *
 bash setup.sh
-bash insta-hack.sh
+bash instahack.sh
 
 ```
 ## INSTALLATION [Kali Linux]
@@ -50,7 +50,7 @@ ls
 cd instahack
 pip3 install -r requirements.txt
 chmod +x *
-sudo bash insta-hack.sh
+sudo bash instahack.sh
 
 ```
 
