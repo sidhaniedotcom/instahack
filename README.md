@@ -24,32 +24,35 @@ All in one Instagram hacking tool available (Insta information gathering, Insta 
 - Mi Note 9 pro
 
 ## INSTALLATION [Termux]
+```
+apt update
+apt upgrade
+pkg install python
+pkg install python2
+pkg install git
+git clone https://github.com/sidhaniedotcom/instahack
+ls
+cd instahack
+pip3 install -r requirements.txt
+chmod +x *
+bash setup.sh
+bash insta-hack.sh
 
-* `apt update`
-* `apt upgrade`
-* `pkg install python`
-* `pkg install python2`
-* `pkg install git`
-* `git clone https://github.com/IncredibleHacker/insta-hack`
-* `ls`
-* `cd insta-hack`
-* `pip3 install -r requirements.txt`
-* `chmod +x *`
-* `bash setup.sh`
-* `bash insta-hack.sh`
-
+```
 ## INSTALLATION [Kali Linux]
+```
 
-* `sudo apt install python`
-* `sudo apt install python2`
-* `sudo apt install git`
-* `git clone https://github.com/IncredibleHacker/insta-hack`
-* `ls`
-* `cd insta-hack`
-* `pip3 install -r requirements.txt`
-* `chmod +x *`
-* `sudo bash insta-hack.sh`
+sudo apt install python
+sudo apt install python2
+sudo apt install git
+git clone https://github.com/sidhaniedotcom/instahack
+ls
+cd instahack
+pip3 install -r requirements.txt
+chmod +x *
+sudo bash insta-hack.sh
 
+```
 ## Screenshot:
 <br>
 <p align="center">
