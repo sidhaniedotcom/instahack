@@ -32,44 +32,42 @@ echo " "
 figlet -f Bloody Insta-Hack | lolcat
 
     echo " "
-    echo -e "$Red                    ⫸ Created by$Yellow sIDHANIE$Red ⫷\033[0m"
-    echo -e "$Red                      ⫸$Purple tERMUX sIDHANIE$Red ⫷\033[0m"
+    echo -e "$Red                    ⫸ Created by$Yellow SIDHANIE$Red ⫷\033[0m"
+    echo -e "$Red                      ⫸$Purple TERMUX SIDHANIE$Red ⫷\033[0m"
 echo " "
-echo -e " $Green     |---------------------------------------------------------------------|"
-echo -e " $Green     ||----------------------$Cyan [features] $Green----------------------||"
-echo -e " $Green     ||                                                                   ||"
-echo -e " $Green     || $Purple==>$Yellow[1️⃣] Insta information gathering$Green           ||"
-echo -e " $Green     || $Purple==>️$Yellow[2️⃣] Insta brute force attack$Green              ||"
-echo -e " $Green     || $Purple==>$Yellow[3️⃣] Insta auto reporter$Green                   ||"
-echo -e " $Green     || $Purple==>$Yellow[4️⃣] Insta phishing page(coming soon)$Green      ||"
-echo -e " $Green     || $Purple==>$Yellow[5️⃣] Update script$Green                         ||"
-echo -e " $Green     || $Purple==>$Yellow[6️⃣] Remove script$Green                         ||"
-echo -e " $Green     || $Purple==>$Yellow[7️⃣] About$Green                                 ||"
-echo -e " $Green     || $Purple==>$Yellow[8️⃣] exit$Green                                  ||"
-echo -e " $Green     ||                                                                   ||"                                                                                       
-echo -e " $Green     ||---------------------$Cyan [select option] $Green------------------||"
-echo -e " $Green     |---------------------------------------------------------------------|"
+echo -e " $Green |-----------------------------------------------------------|"
+echo -e " $Green ||-----------------$Cyan [features] $Green-----------------||"
+echo -e " $Green     $Purple==>$Yellow[1️⃣] Insta information gathering$Green"
+echo -e " $Green     $Purple==>️$Yellow[2️⃣] Insta brute force attack$Green"
+echo -e " $Green     $Purple==>$Yellow[3️⃣] Insta auto reporter$Green"
+echo -e " $Green     $Purple==>$Yellow[4️⃣] Insta phishing page(coming soon)$Green"
+echo -e " $Green     $Purple==>$Yellow[5️⃣] Update script$Green"
+echo -e " $Green     $Purple==>$Yellow[6️⃣] Remove script$Green"
+echo -e " $Green     $Purple==>$Yellow[7️⃣] About$Green"
+echo -e " $Green     $Purple==>$Yellow[8️⃣] exit$Green"                                                                                       
+echo -e " $Green ||----------------$Cyan [select option] $Green-------------||"
+echo -e " $Green |-----------------------------------------------------------|"
 echo " "
 echo " "
 
     read ch
    if [ $ch -eq 1 ];then
         cd $HOME
-        cd insta-hack
+        cd instahack
         cd Ig_information_gathering
         bash start.sh
 
         exit
     elif [ $ch -eq 2 ];then 
          cd $HOME
-         git clone https://github.com/noob-hackers/ighack
-         cd $HOME/insta-hack/ig_brute_force
+         git clone https://github.com/sidhaniedotcom/instahack
+         cd $HOME/instahack/ig_brute_force
          bash setup
          bash ighack.sh
         
         exit
     elif [ $ch -eq 3 ];then
-        git clone https://github.com/Crevils/InstaReport
+        git clone https://github.com/sidhaniedotcom/instahack
         cd InstaReport
         pip install -r requirements.txt
         python ReportBot.py
@@ -82,15 +80,15 @@ echo " "
     elif [ $ch -eq 5 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
         cd $HOME
-        rm -rf insta-hack
+        rm -rf instahack
         git clone https://github.com/sidhaniedotcom/instahack
         cd insta-hack
-        bash insta-hack.sh
+        bash instahack.sh
      
         exit
    elif [ $ch -eq 6 ];then 
         cd $HOME
-        rm -rf insta-hack
+        rm -rf instahack
         
         exit
    elif [ $ch -eq 7 ];then
